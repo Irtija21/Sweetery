@@ -447,7 +447,7 @@ video {
 }
 
 body{
-  color: #4A1D1F
+  color: #4A1D1F;
 }
 
 *, ::before, ::after {
@@ -680,8 +680,8 @@ body{
   gap: 0.75rem;
 }
 
-.gap-5 {
-  gap: 1.25rem;
+.gap-8 {
+  gap: 2rem;
 }
 
 .rounded-md {
@@ -714,11 +714,6 @@ body{
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .py-5 {
@@ -762,6 +757,11 @@ body{
   font-style: italic;
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -784,5 +784,15 @@ body{
 @media (min-width: 768px) {
   .md\:w-\[550px\] {
     width: 550px;
+  }
+
+  .md\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .md\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
   }
 }
